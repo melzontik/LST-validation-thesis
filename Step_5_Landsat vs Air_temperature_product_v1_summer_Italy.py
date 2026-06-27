@@ -102,7 +102,7 @@ df_arpa['b_system_time_start'] = pd.to_datetime(df_arpa['b_system_time_start'])
 df_arpa['b_system_time_start'] = df_arpa['b_system_time_start'].dt.strftime('%Y-%m-%d %H:%M:%S')
 
 # Perform the merge
-df_gee_arpa = df_gee[['b_system_time_start', 'c_DATE_ACQUIRED', 'g_LSTmedian']].merge(
+df_gee_arpa = df_gee[['b_system_time_start', 'c_DATE_ACQUIRED']].merge(
     df_arpa[['b_system_time_start', 'Medio']],
     left_on='b_system_time_start',
     right_on='b_system_time_start',
