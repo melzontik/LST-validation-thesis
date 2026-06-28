@@ -1,3 +1,5 @@
+# GEE data extraction script
+# https://code.earthengine.google.com/bf1360efd2bde25bf1b055724ffb6093
 
 import pandas as pd
 import ast
