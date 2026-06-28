@@ -1,3 +1,6 @@
+# GEE data extraction script
+# https://code.earthengine.google.com/5a94e8495f8383da067ec9ac3e9494c9
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
