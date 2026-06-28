@@ -1,3 +1,5 @@
+# GEE data extraction script
+# https://code.earthengine.google.com/5a94e8495f8383da067ec9ac3e9494c9
 
 import os
 from glob import glob
